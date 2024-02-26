@@ -1,0 +1,45 @@
+.convoWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.startWrapper {
+  display: flex;
+  width: 100px;
+  justify-content: space-around;
+}
+.connectionStatus {
+  background-color: red;
+  padding: 0.8rem;
+  width: fit-content;
+  border-radius: 50%;
+}
+
+.connectionStatus.connected {
+  background-color: green;
+}
+
+/* MESSAGES  */
+
+.messageWrapper {
+  border: solid black 3px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 0 black;
+  width: 350px;
+}
+.messageContainer > p {
+  text-align: left;
+}
+
+/* INPUT  */
+input.typeInput {
+  width: 250px;
+  border: solid black 2px;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-inline-end: 2rem;
+}

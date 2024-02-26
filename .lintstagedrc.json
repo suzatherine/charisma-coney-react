@@ -1,0 +1,4 @@
+{
+  "src/**/*.{ts,tsx}": "eslint --fix",
+  "*.md": "prettier --single-quote --trailing-comma all --write"
+}
