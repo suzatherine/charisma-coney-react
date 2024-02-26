@@ -4,7 +4,7 @@ npm-debug.log
 yarn-error.log
 
 # Build-related
-dist/*
+# dist/*
 src/**/*.js
 
 # IDE
