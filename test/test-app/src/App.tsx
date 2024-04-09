@@ -45,7 +45,7 @@ function App() {
       <div className="appContainer">
         {!apiKey ? "Please set your API key" : null}
         {sufficientParameters && !confirmed && apiKey ? (
-          <button onClick={() => setConfirmed(true)}>Confirm</button>
+          <button onClick={() => setConfirmed(true)}>We're Ready</button>
         ) : null}
         {/* {confirmed ? (
           <MyChat

@@ -104,7 +104,7 @@ const ConversationView = ({
       <div className="messagesWrapper">
         <MessagesView messages={messages} />
         <br />
-        <div>
+        <div className="inputWrapper">
           <input
             className="typeInput"
             onChange={({ currentTarget: { value } }) => type(value)}
@@ -119,6 +119,15 @@ const ConversationView = ({
           <RecordingIndicator service={service} />
         </div>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <button>
+        <a href="" target="_blank">
+          Conversation over
+        </a>
+      </button>
     </div>
   );
 };

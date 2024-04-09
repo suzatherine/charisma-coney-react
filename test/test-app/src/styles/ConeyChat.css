@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .startWrapper {
@@ -28,18 +29,33 @@
   padding: 1rem;
   border-radius: 0.5rem;
   box-shadow: 0.5rem 0.5rem 0 black;
-  width: 350px;
+  width: 60%;
 }
-.messageContainer > p {
+.messageContainer > p,
+.messageContainer > div {
   text-align: left;
+  font-size: 2rem;
+}
+
+.startWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 /* INPUT  */
+
+.inputWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 input.typeInput {
-  width: 250px;
+  width: 80%;
   border: solid black 2px;
-  border-radius: 0.2rem;
-  font-size: 1rem;
-  padding: 0.5rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  padding: 1rem;
   margin-inline-end: 2rem;
 }
