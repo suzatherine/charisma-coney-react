@@ -124,7 +124,10 @@ const ConversationView = ({
       <br />
       <br />
       <button>
-        <a href="" target="_blank">
+        <a
+          href="https://deft-gaufre-490f8b.netlify.app/phone2.html"
+          target="_blank"
+        >
           Conversation over
         </a>
       </button>
